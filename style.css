@@ -1,0 +1,95 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.aside {
+    width: 16%;
+    background-color: black;
+}
+
+.design {
+    color: white;
+    font-size: 24px;
+    font-family: Avenir;
+    font-weight: bold;
+}
+
+.today {
+    color: white;
+    font-size: 24px;
+    font-family: Avenir;
+    font-weight: lighter;
+}
+
+.burger-icon {
+    width: 26px;
+    height: 11px;
+}
+
+.h-div {
+    display: flex;
+}
+
+.small-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    margin-bottom: 50px;
+}
+
+.nav-links li {
+    padding: 10px 0px;
+}
+
+.nav-links li a {
+    color: white;
+    padding: 10px 14px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a i {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.sidebar a:hover {
+    background-color: #FF2288;
+    border-radius: 10px;
+    width: 230px;
+}
+
+.span {
+    font-size: 12px;
+    color: white;
+    padding: 50px 45px;
+    margin-top: 40px;
+}
+
+.nav-second-links {
+    padding: 50px 0px;
+}
+
+.nav-second-links li {
+    color: white;
+    font-size: 16px;
+    padding: 10px 14px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-second-links li img {
+    width: 44px;
+    height: 44px;
+    margin-right: 16px;
+}
+
+.sec-span {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 50px;
+    margin-left: 43px;
+}
