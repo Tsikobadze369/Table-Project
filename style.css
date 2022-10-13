@@ -3,15 +3,8 @@
     width: 100%;
     display: flex;
 
-
 }
 
-/* .header{
-    max-width: 1920px;
-    width: 82%;
-    
-    
-} */
 .aside {
     width: 16%;
     height: 1080px;
@@ -111,8 +104,6 @@
     justify-content: space-between;
     align-items: center;
 
-
-
 }
 
 .input {
@@ -144,12 +135,14 @@
     justify-content: space-around;
     align-items: center;
     margin-left: 600px;
-    gap: 20px;
+    gap: 25px;
 }
 
 .imiges span {
-    font-size: 14px;
+    width: 14%;
     color: #FF2288;
+    font-family: 'Dancing Script N';
+    font-weight: bold;
 }
 
 .button {
@@ -210,6 +203,8 @@
 .navigation ul {
     display: flex;
     margin-top: 30px;
+    align-items: center;
+    
 }
 
 .navigation ul li {
@@ -218,11 +213,11 @@
     padding: 30px 15px;
     display: flex;
     align-items: center;
+   
 }
 
 .section-fourth {
     display: flex;
-
     align-items: center;
     margin-left: 140px;
 }
@@ -282,8 +277,9 @@
     color: deeppink;
     font-family: 'Dancing Script M';
     animation-name: designers;
-    animation-duration: 10s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
+    
 }
 
 @keyframes designers {
@@ -320,6 +316,7 @@
         color: aqua;
         font-stretch: expanded;
     }
+    to { transform: scale(1.9); }
 }
 
 .section-six {
@@ -410,4 +407,23 @@
     align-items: center;
     justify-content: space-around;
 
+}
+.filter-btn{
+    width: 132px;
+    height: 56px;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+}
+
+
+.filter-btn span{
+    font-size: 16px;
+    font-family: Avenir;
+}
+.filter-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
 }
