@@ -2,7 +2,7 @@
     max-width: 1920px;
     width: 100%;
     display: flex;
-
+margin: 0 auto;
 }
 
 .aside {
@@ -220,6 +220,7 @@
     display: flex;
     align-items: center;
     margin-left: 140px;
+    flex-wrap: wrap;
 }
 
 .section-fourth div img {
@@ -239,6 +240,7 @@
 
     align-items: center;
     margin-left: 140px;
+    flex-wrap: wrap;
 }
 
 .section-fifth div img {
@@ -331,6 +333,7 @@
     display: flex;
     margin-top: 70px;
     margin-left: 140px;
+    
 }
 
 .photoes img {
@@ -417,7 +420,6 @@
     
 }
 
-
 .filter-btn span{
     font-size: 16px;
     font-family: Avenir;
@@ -427,3 +429,73 @@
     justify-content: space-evenly;
     padding: 15px;
 }
+
+@media (max-width: 480px){
+    .container{background-color: cyan;}
+}
+.container{
+    overflow: hidden;
+}
+.navigation{
+    display: none;
+}
+.input-box{
+    display: none;
+}
+.img-div{
+    display: none;
+}
+.design{
+    font-size: 15px;
+}
+.today{
+    font-size: 15px;
+}
+.section-third{
+    display: none;
+}
+.section-fourth div img{
+    width: 90px;
+    height: 90px;
+    
+       
+}
+.section-fourth div p{
+display: none;
+}
+.section-fifth div img{
+    width: 90px;
+    height: 90px;
+    
+    
+}
+.section-fifth div p{
+    display: none;
+}
+
+.span{
+    display:none;
+}
+.nav-second-links{
+    display: none;
+}
+.sec-span{
+    display: none;
+}
+.top-designers{
+display: none;
+}
+
+.section-seven{
+    display: none;
+}
+.photoes{
+    display: none;
+}
+.button{
+    display: none;
+}
+.imiges{
+    display: none;
+}
+
